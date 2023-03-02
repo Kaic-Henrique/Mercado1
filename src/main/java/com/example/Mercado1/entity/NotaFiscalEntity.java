@@ -9,18 +9,18 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+
 @Entity
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class ProdutoEntity {
+public class NotaFiscalEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id_Produto;
-    private String descricao;
-    private float preco;
-    private Integer unidade_De_Medida;
-    private Integer codigo_interno;
+    private Long id_NotaFiscal;
+    private Integer numero_da_nota;
+    private float valor_da_nota;
+    private Long id_produto;
 }
