@@ -1,6 +1,6 @@
-package com.example.Mercado1.repository;
+package com.example.mercado1.repository;
 
-import com.example.Mercado1.entity.ProdutoEntity;
+import com.example.mercado1.entity.ProdutoEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

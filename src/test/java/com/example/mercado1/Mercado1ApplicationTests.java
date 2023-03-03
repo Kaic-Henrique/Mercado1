@@ -1,4 +1,4 @@
-package com.example.Mercado1;
+package com.example.mercado1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

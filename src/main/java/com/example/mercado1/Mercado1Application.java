@@ -1,4 +1,4 @@
-package com.example.Mercado1;
+package com.example.mercado1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

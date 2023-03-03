@@ -2,4 +2,18 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/mercado
     username: postgres
-    password: password
+    password: example
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
+
+
+#  flyway:
+#    enabled: true
+#    validate-on-migrate: true
+
